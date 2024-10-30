@@ -21,17 +21,38 @@ This lab stands to prepare the moderngl development environment. Below the steps
 ## How to run your program
 
 ```
-# Update this section with instructions on how to run your programs. 
-
-# Consider that these instructions will be executed 
-in a completely new linux-based machine (Ubuntu 22.04),
-so, instructions for dependencies installation must be added.
-
-# It's highly recommended to use python virtual envs. 
-You may take a look on:
-https://docs.python.org/3/library/venv.html
+#First step
+    1. Clone the repository from the github classroom
+    2. Installing modernGL
+        a. pip install moderngl
 ```
 
+```
+#Hello world
+    1. pip install pygame
+    2. run python .\01_hello_world.py
+    3. If everything is fine we should see the colourful square changing colours :D
+```
+```
+#Multiple objects
+    1. pip install pyglm
+    2. run python .\06_multiple_objects.py
+    3. If everything is fine we should see the colourful triangles changing colours and rotating :D
+```
+```
+#Models and images
+    1. pip install objloader
+    2. Install a tec image logo from the internet
+    3. Install from the github moderngl repository the following files to our folder: 
+        - lowpoly_toy_car.obj
+        - crate.obj
+    4. add the logo to line 109 as ImageTexture(tec.png)
+    5. add toy car object to line 112 ModelGeometry('lowpoly_toy_car.obj')
+    6. Same with line 115 to crate object. ModelGeometry('crate.obj')
+    7. run python .\09_models_and_images.py
+    8. To rotate the tec logo to succesfully be the correct side up, change line 82 and make it negative, so its rotated
+    8. If everything is working then we should see two cars rotating around a tec logo :D
+```
 ## Grading Policy
 
 - 25% - `01_hello_world.py` is running with no errors
