@@ -53,6 +53,8 @@ This lab stands to prepare the moderngl development environment. Below the steps
     8. To rotate the tec logo to succesfully be the correct side up, change line 82 and make it negative, so its rotated
     8. If everything is working then we should see two cars rotating around a tec logo :D
 ```
+```
+
 ## Grading Policy
 
 - 25% - `01_hello_world.py` is running with no errors
